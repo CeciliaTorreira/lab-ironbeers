@@ -1,0 +1,11 @@
+<div>
+    {{#each this.beers}}
+
+{{!-- <li>{{this.name}}</li> // Cada cerveza es un objeto dentro de un array, intenté primero con "this" pero no me salía nada pero con this.name me aparecía el nombre de cada cerveza --}}
+{{>beerpartials}}
+
+    {{/each}}
+</div>
+
+
+{{!-- Cambié el código varias veces hasta que recordé que en el ejercicio con Jorge de los perros tuvimos que reiniciar nodemon para que surtiese efecto --}}
