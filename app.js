@@ -1,3 +1,4 @@
+const { Console } = require('console');
 const express = require('express');
 
 const hbs = require('hbs');
